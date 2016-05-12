@@ -1,9 +1,9 @@
 ---
-awscli-bundle.zip:
+aws-cli/awscli-bundle.zip:
   object_id: 337adb79-d041-4806-8604-5448a8649830
   sha: 8ab195750d710e1acc9fe1ac8c1596526c8f3ce9
   size: 6863915
-Python-2.7.8.tgz:
+python/Python-2.7.8.tgz:
   object_id: cef46a36-9b61-451c-a7bc-12207cd8934f
   sha: 511960dd78451a06c9df76509635aeec05b2051a
   size: 14846119
