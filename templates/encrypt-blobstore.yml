@@ -1,7 +1,7 @@
 compilation:
   cloud_properties:
     name: random
-  network: cf1
+  network: cf2
   reuse_compilation_vms: true
   workers: 6
 director_uuid: 17a45148-1d00-43bc-af28-9882e5a6535a
@@ -11,7 +11,7 @@ jobs:
   networks:
   - name: cf1
     static_ips:
-    - 10.244.0.2
+    - 10.244.0.10
   persistent_disk: 3000
   resource_pool: medium_z1
   templates:
