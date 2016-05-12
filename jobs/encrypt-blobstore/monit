@@ -1,0 +1,5 @@
+check process encrypt-blobstore
+  with pidfile /var/vcap/sys/run/encrypt-blobstore/encrypt-blobstore.pid
+  start program "/var/vcap/jobs/encrypt-blobstore/bin/monit_debugger encrypt-blobstore_ctl '/var/vcap/jobs/encrypt-blobstore/bin/ctl start'"
+  stop program "/var/vcap/jobs/encrypt-blobstore/bin/monit_debugger encrypt-blobstore_ctl '/var/vcap/jobs/encrypt-blobstore/bin/ctl stop'"
+  group vcap
