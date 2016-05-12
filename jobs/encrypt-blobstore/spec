@@ -12,3 +12,10 @@ templates:
   data/properties.sh.erb: data/properties.sh
   helpers/ctl_setup.sh: helpers/ctl_setup.sh
   helpers/ctl_utils.sh: helpers/ctl_utils.sh
+properties:
+  encrypt-blobstore.bucket:
+    description: AWS Bucket Name
+  encrypt-blobstore.access_key:
+    description: AWS Access Key
+  encrypt-blobstore.secret_access_key:
+    description: AWS Secret Access Key
