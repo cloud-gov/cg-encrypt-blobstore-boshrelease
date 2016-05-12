@@ -1,0 +1,6 @@
+---
+blobstore:
+  provider: local
+  options:
+    blobstore_path: /tmp/encrypt-blobstore
+final_name: encrypt-blobstore
