@@ -19,3 +19,6 @@ properties:
     description: AWS Access Key
   encrypt-blobstore.secret_access_key:
     description: AWS Secret Access Key
+  encrypt-blobstore.encryption_type:
+    description: AWS encryption type
+    default: "AES256"
