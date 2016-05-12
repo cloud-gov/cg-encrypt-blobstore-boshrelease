@@ -4,7 +4,7 @@ compilation:
   network: cf1
   reuse_compilation_vms: true
   workers: 6
-director_uuid: 08356199-b2c3-41cc-8319-5bbb980994ab
+director_uuid: 17a45148-1d00-43bc-af28-9882e5a6535a
 jobs:
 - instances: 1
   name: encrypt-blobstore
