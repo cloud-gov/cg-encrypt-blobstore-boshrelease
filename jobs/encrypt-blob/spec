@@ -1,7 +1,0 @@
----
-name: encrypt-blobstore
-templates:
-
-packages:
-- python
-- aws-cli
