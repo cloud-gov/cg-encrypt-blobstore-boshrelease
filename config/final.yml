@@ -1,6 +1,6 @@
 ---
 blobstore:
-  provider: local
+  provider: s3
   options:
-    blobstore_path: /tmp/encrypt-blobstore
+    bucket_name: 18f-boshrelease-blob
 final_name: encrypt-blobstore
