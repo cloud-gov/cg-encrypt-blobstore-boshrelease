@@ -3381,7 +3381,10 @@ properties:
   encrypt-blobstore:
     localpass: test
     sitepass: test
-    bucket: foo
+    buckets:
+    - "bucketName"
+    - "bucketName2"
+    - "bucketName3"
     access_key: far
     secret_access_key: fyz
 
