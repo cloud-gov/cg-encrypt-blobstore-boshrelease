@@ -1,4 +1,4 @@
 # m h dom mon dow user  command
 <% p('encrypt-blobstore.buckets').each do |bucket| %>
-0 0 * * * root BUCKET="<%= bucket %>" /var/vcap/jobs/encrypt-blobstore/bin/encrypt-blobstore.sh
+0 * * * * root BUCKET="<%= bucket %>" /var/vcap/jobs/encrypt-blobstore/bin/encrypt-blobstore.sh
 <% end %>
