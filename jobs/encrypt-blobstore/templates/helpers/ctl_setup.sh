@@ -17,7 +17,6 @@ JOB_NAME=$1
 output_label=${2:-${JOB_NAME}}
 
 export JOB_DIR=/var/vcap/jobs/$JOB_NAME
-export PACKAGE_DIR=/var/vcap/packages/$JOB_NAME
 chmod 755 $JOB_DIR # to access file via symlink
 
 # Load some bosh deployment properties into env vars
