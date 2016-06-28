@@ -22,3 +22,6 @@ properties:
   encrypt-blobstore.encryption_type:
     description: AWS encryption type
     default: "AES256"
+  encrypt-blobstore.default_region:
+    description: AWS Region Endpoint
+    default: "us-east-1"
