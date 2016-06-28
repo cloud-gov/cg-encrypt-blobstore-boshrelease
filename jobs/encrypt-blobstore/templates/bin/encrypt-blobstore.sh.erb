@@ -2,6 +2,7 @@
 set -e
 set -u
 
+export AWS_DEFAULT_REGION="<%= p('encrypt-blobstore.default_region') %>"
 export AWS_ACCESS_KEY_ID="<%= p('encrypt-blobstore.access_key') %>"
 export AWS_SECRET_ACCESS_KEY="<%= p('encrypt-blobstore.secret_access_key') %>"
 
